@@ -1,0 +1,168 @@
+{
+    "blogList": [
+        {
+          "id": 1,
+          "technology": "MINIMALISM",
+          "title": "Culpa sit Laboris Exercitation ea Fugiat",
+          "address": "Leslie Pena",
+          "time": "April 25, 2012 (6 mins read)",
+          "thumbnail":
+            "https://images.unsplash.com/photo-1518770660439-4636190af475?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+          "text": "LeIncididunt occaecat et qui dolore consectetur Incididunt occaecat et qui dolore consectetur magna. Lorem veniam ut et labore consequat ut ex sunt. Ut et nostrud aliquip do anim proident ad nulla consectetur eu aute ex anim mollit. Anim aute exercitation nisi fugiat. Dolor velit excepteur commodo proident nulla commodo ullamco labore et esse."
+        },
+        {
+          "id": 2,
+          "technology": "Technology",
+          "title": "Amet non Ex Officia nulla Cupidatat",
+          "address": "Jacob Henry",
+          "time": "September 27, 2017 (8 mins read)",
+          "thumbnail":
+            "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+          "text": "Sint anim Lorem aute duis Lorem incididunt. Nulla nostrud irure id ipsum aute excepteur duis sint. Do occaecat sit dolor magna esse. Mollit incididunt cillum consectetur fugiat adipisicing dolor est id minim amet cillum esse Lorem. Deserunt non duis excepteur aliqua duis eu reprehenderit."
+        },
+        {
+          "id": 3,
+          "technology": "Article",
+          "title": "Dolor ex Tempor Cotur Culpa li",
+          "address": "Darrell Lane",
+          "time": "May 16, 2017 (3 mins read)",
+          "thumbnail":
+            "https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX39035597.jpg",
+          "text": "Incididunt sint nulla eu adipisicing eu reprehenderit proident consequat est. Nisi consectetur incididunt mollit officia ut cupidatat laborum proident eu velit Lorem deserunt deserunt voluptate. Proident nostrud laborum reprehenderit culpa irure id labore do ad do minim nisi. Incididunt ex."
+        }
+      ],
+      "tagList": [
+        {
+          "id": 1,
+          "title": "Technology"
+        },
+        {
+          "id": "2",
+          "title": "Open Sourece"
+        },
+        {
+          "id": "3",
+          "title": "avaScript"
+        },
+        {
+          "id": "4",
+          "title": "Mininalism"
+        },
+        {
+          "id": "5",
+          "title": "Selft-help"
+        },
+        {
+          "id": "6",
+          "title": "Animals"
+        },
+        {
+          "id": "7",
+          "title": "Herbiviores"
+        },
+        {
+          "id": "8",
+          "title": "HTML"
+        },
+        {
+          "id": "9",
+          "title": "CSS"
+        },
+        {
+          "id": "10",
+          "title": "PHP"
+        },
+        {
+          "id": "11",
+          "title": "Web Technologies"
+        },
+        {
+          "id": "12",
+          "title": "Carrer"
+        },
+        {
+          "id": "13",
+          "title": "Life"
+        },
+        {
+          "id": "14",
+          "title": "Spirtuality"
+        },
+        {
+          "id": "15",
+          "title": "Food"
+        },
+        {
+          "id": "16",
+          "title": "Cooking"
+        },
+        {
+          "id": "17",
+          "title": "Sports"
+        },
+        {
+          "id": "18",
+          "title": "Racing"
+        },
+        {
+          "id": "19",
+          "title": "Mountain Hiking"
+        },
+        {
+          "id": "20",
+          "title": "Cruising"
+        }
+      ],
+      "articles": [
+        {
+          "id": 2,
+          "technology": "NATURE",
+          "title": "Tempor deserunt Sunt Qui",
+          "address": "Connie Robertson",
+          "time": "November 3, 2012",
+          "thumbnail":
+            "https://images.unsplash.com/photo-1559466451-fc1e9f378c46?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80g",
+          "text": "Ea qui dolor aute cupidatat ad pariatur proident. Mollit nulla tempor aute reprehenderit ut dolore mollit nisi consequat excepteur ex officia pariatur irure."
+        },
+        {
+          "id": 2,
+          "technology": "PLANTS",
+          "title": "Occaecat Anim eu Qui",
+          "address": "Eleanor Williamson",
+          "time": "September 28, 2014",
+          "thumbnail":
+            "https://images.unsplash.com/photo-1565789570848-7a4b39090d21?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+          "text": "Qui ipsum consectetur ad incididunt et aliquip exercitation laboris nisi reprehenderit. Et excepteur commodo esse enim ea aliqua officia reprehenderit."
+        },
+        {
+          "id": 3,
+          "technology": "FOOD",
+          "title": "Fugiat Incididunt Voluptate Consequat",
+          "address": "Bessie Watson",
+          "time": "June 13, 2012",
+          "thumbnail":
+            "https://images.unsplash.com/photo-1565789570845-1f9a4142a5f3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80",
+          "text": "Mollit ea culpa ipsum pariatur eiusmod. Irure et."
+        },
+        {
+          "id": 4,
+          "technology": "COLORFUL",
+          "title": "Occaecat Anim eu Qui",
+          "address": "Ted Simmmons",
+          "time": "June 21, 2015",
+          "thumbnail":
+            "https://images.unsplash.com/photo-1565789570481-f7bc45817eaf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=751&q=80",
+          "text": "Amet ipsum occaecat aliqua aute nisi laboris nostrud culpa est do. Aliqua esse velit in excepteur esse qui voluptate laboris adipisicing qui irure elit amet excepteur."
+        },
+        {
+          "id": 5,
+          "technology": "COLORFUL",
+          "title": "Occaecat Anim eu Qui",
+          "address": "Ted Simmmons",
+          "time": "June 21, 2015",
+          "thumbnail":
+            "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=749&q=80",
+          "text": "Amet ipsum occaecat aliqua aute nisi laboris nostrud culpa est do. Aliqua esse velit in excepteur esse qui voluptate laboris adipisicing qui irure elit amet excepteur."
+        }
+      ]
+}
