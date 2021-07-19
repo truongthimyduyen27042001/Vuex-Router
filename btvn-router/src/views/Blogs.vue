@@ -9,13 +9,14 @@
       <div class="content">
         <h2>Editor's Picks</h2>
       </div>
-      <div class="blog-list container">
+      <!-- test pagination -->
+      <div class="container blog-list">
         <div v-if="loading" class="loading">Loading...</div>
         <div
           v-else
           class="blog-small container"
-          v-for="blog in blogs"
-          :key="blog.id"
+          v-for="(blog, index) in displayedUsers"
+          :key="index"
           @click="$router.push('/blogs/' + blog.id)"
         >
           <div class="row gx-2">
@@ -38,15 +39,16 @@
           </div>
         </div>
       </div>
-
-      <!-- pagination -->
-      <div class="card-footer pb-0 pt-3">
-        <jw-pagination
-          :items="exampleItems"
-          @changePage="onChangePage"
-        ></jw-pagination>
+      <div class="pagi">
+        <b-pagination
+          v-model="page"
+          :total-rows="count"
+          :per-page="pageSize"
+          prev-text="Prev"
+          next-text="Next"
+        ></b-pagination>
       </div>
-      <!-- end pagination -->
+      <!-- end test pagination -->
     </div>
     <div class="blog-load">
       <div class="blog-article">
@@ -120,7 +122,8 @@ export default {
     await axios
       .get("http://localhost:3000/blogs")
       .then((response) => {
-        this.exampleItems = response.data;
+        this.blogs = response.data;
+        this.count=response.data.length;
         this.loading = false;
       })
       .catch((error) => {
@@ -134,13 +137,33 @@ export default {
       articles: 0,
       exampleItems: [],
       blogdemo: 0,
-      loading: false,
+      loading: true,
       search: "",
+      // test
+      currentUser: null,
+      currentIndex: -1,
+      page: 1,
+      count: 40,
+      pageSize: 5,
+      perPage: 5,
+      pages: [],
     };
   },
   methods: {
-    onChangePage(blogs) {
-      this.blogs = blogs;
+    // onChangePage(blogs) {
+    //   this.blogs = blogs;
+    // },
+    paginate(blogs) {
+      let page = this.page;
+      let perPage = this.perPage;
+      let from = page * perPage - perPage;
+      let to = page * perPage;
+      return blogs.slice(from, to);
+    },
+  },
+  computed: {
+    displayedUsers() {
+      return this.paginate(this.blogs);
     },
   },
 };
@@ -191,10 +214,10 @@ img {
   margin: 50px auto !important;
 }
 .blog-small {
-  margin-bottom: 4rem!important;
+  margin-bottom: 4rem !important;
 }
-.card-footer{
-  margin-bottom: 40px!important;
+.card-footer {
+  margin-bottom: 40px !important;
 }
 .content h2 {
   font-size: 42px;
@@ -292,7 +315,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px!important;
+  padding: 50px !important;
 }
 .articles {
   display: flex;
@@ -300,14 +323,14 @@ img {
   width: 100%;
 }
 .article-inner {
-  margin-bottom: 40px!important;
+  margin-bottom: 40px !important;
 }
 .articles .left-blog-small img {
   width: 100%;
   object-fit: contain;
 }
 .articles .right-blog-small {
-  padding-left: 20px!important;
+  padding-left: 20px !important;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -356,6 +379,13 @@ button.page-link {
   width: 500px !important;
   margin: 20px auto;
 }
+/* test pagination */
+.pagi {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px !important;
+}
+/* end test pagination */
 /* responsive */
 @media screen and (max-width: 1255px) {
   .blog-article-small {
