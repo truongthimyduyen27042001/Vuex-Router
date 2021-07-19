@@ -82,7 +82,7 @@
         </div>
       </div>
     </div>
-    <!-- <div class="headline">
+    <div class="headline">
       <div class="logo-nav">
         <div class="logo-slogan">
           Because we are you.
@@ -92,7 +92,7 @@
       <div class="headline-text pt-4" style="width: 434px">
         A publishing company that focuses on the essentials.
       </div>
-    </div> -->
+    </div>
   </div>
 </template>
 <script>
@@ -290,9 +290,15 @@ export default {
     width: 60px;
     height: 50px;
   }
+  .logo-slogan {
+    font-size: 30px !important;
+    line-height: 35px !important;
+    width: fit-content !important;
+  }
   .headline-text {
-    padding-left: 50px;
-    padding-right: 50px;
+    width: fit-content !important;
+    font-size: 15px !important;
+    line-height: 18px !important;
   }
 }
 </style>

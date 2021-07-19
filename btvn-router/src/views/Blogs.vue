@@ -123,7 +123,7 @@ export default {
       .get("http://localhost:3000/blogs")
       .then((response) => {
         this.blogs = response.data;
-        this.count=response.data.length;
+        this.count = response.data.length;
         this.loading = false;
       })
       .catch((error) => {

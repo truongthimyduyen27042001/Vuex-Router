@@ -69,7 +69,7 @@ export default {
   data() {
     return {
       activeMenu: false,
-      search: "Truong thi my udyen",
+      search: "",
     };
   },
 };
@@ -155,7 +155,7 @@ export default {
 }
 /* Nav response */
 .nav-res {
-  width: 50%;
+  width: 350px;
   height: 100vh;
   background: gray;
   position: fixed;
@@ -178,6 +178,8 @@ export default {
 .list-nav-res {
   list-style: none;
   margin-top: 50px;
+  display: flex;
+  flex-direction: column;
 }
 .list-nav-res li {
   font-weight: bold;
@@ -206,6 +208,9 @@ export default {
 @media screen and (max-width: 500px) {
   .login {
     display: none !important;
+  }
+  .nav-res {
+    width: 60%;
   }
 }
 @media screen and (max-width: 320px) {
